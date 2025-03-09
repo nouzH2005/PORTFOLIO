@@ -1,0 +1,108 @@
+@media (max-width: 700px) {
+    
+    .navBar {
+        display: flex;
+        flex-direction: row;
+        margin-left: -40px;
+    }
+
+    .navLinks {
+        margin: 10px 0;
+        padding: 5px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .navLinks li {
+        margin: 5px;
+    }
+
+    .Home {
+        margin-left: -50px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 50px 10px;
+        height: 100vh;
+    }
+
+    .homeContent {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .Home img {
+        margin-left: -70px;
+        order: -1; 
+        width: 250px;
+        height: 250px;
+        margin-bottom: 10px;
+    }
+
+    .text {
+        margin-left: 140px;
+        max-width: 1000%;
+    }
+
+    .text h2 {
+        font-size: 20px;
+    }
+
+    .text p {
+        margin-left: -90px;
+        font-size: 18px;
+    }
+
+    .Aboutme {
+        font-size: 18px;
+        margin: 30px;
+        padding: 20px;
+    }
+
+    .Aboutme h2 {
+        font-size: 22px;
+    }
+
+    .Aboutme p {
+        font-size: 16px;
+        padding: 15px;
+        line-height: 1.4;
+    }
+}
+
+    .games, .music {
+        padding: 20px;
+    }
+
+    .gameItems, .musicItems {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gameItems img, .musicItems img {
+        width: 250px;
+        height: 150px;
+    }
+
+    #Contact {
+        top: 500px;
+        padding: 3rem 1rem;
+        margin: 20px;
+    }
+
+    .inputBox input,
+    .inputGroup2 textarea {
+        max-width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    footer {
+        margin-top: 0;
+        font-size: 16px;
+        padding: 15px;
+    }
