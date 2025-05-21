@@ -593,3 +593,27 @@ footer{
         padding: 15px;
     }
 }
+
+.Achievements{
+    background-color: #D7EAE2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 100px;
+    border-radius: 50px;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 550px;
+    justify-items: center;
+    padding-bottom: 30px;
+    margin-bottom: -500px;
+}
+
+.Achievements h2{
+    color:  #1A2417;
+    animation: slideOut 0.7s ease-in-out;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
